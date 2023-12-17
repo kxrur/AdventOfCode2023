@@ -30,5 +30,5 @@ with open(relative_path, 'r') as file:
         local_value = int(value_str)
         sum+=local_value 
 
-print("The sum is: ",sum)
+print("The sum is: " + str(sum))
 
